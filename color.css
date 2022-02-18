@@ -1,0 +1,15 @@
+.show{
+   display: contents;
+   
+}
+
+ .hide{     
+ display: none;
+}
+
+.tableClass{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="output.css" />
+  <link rel="stylesheet" href="color.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="bg-purple-800 py-32 px-10 min-h-screen text-xl">
+    <h1 class="text-4xl flex justify-center py-5 ">JSONPlaceHolder User Details</h1>
+    <form class="md:w-1/2 mx-auto">
+      <div class="shadow-xl">
+        <div class="inputDiv flex items-center box-border rounded-lg ">
+          <label for="name" class="w-30 text-right mr-8  text-xl rounded-lg ">Search User</label>
+          <input type="text" id="names" placeholder="name" class="flex-1 p-4 rounded-lg my-4 pl-2  outline-none ">
+
+        </div class="py-8">
+        <button class="btn block disable w-full border-solid  rounded-lg bg-red-500 py-3 text-gray-800 ">Refresh
+        </button>
+    </form>
+
+  </div>
+  <table class="tableClass">
+    <thead>
+      <tr>
+        <th class=" w-1/4 px-4 py-2">UserName</th>
+        <th class=" w-1/2 px-4 py-2">Name</th>
+        <th class=" w-1/4 px-4 py-2">Website</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+
+
+    </tbody>
+  </table>
+
+
+
+
+
+  <script src="library.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
